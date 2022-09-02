@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "MADONNA",
+    "precio": 950,
+    "imagen": "./recursos/pic-madonna.jpeg"
+  },
+  {
+    "id": 2,
+    "nombre": "DEPECHE MODE",
+    "precio": 750,
+    "imagen": "./recursos/pic-depeche-mode.jpeg"
+  },
+  {
+    "id": 3,
+    "nombre": "DOJA CAT",
+    "precio": 900,
+    "imagen": "./recursos/pic-doja-cat.jpeg"
+  },
+  {
+    "id": 4,
+    "nombre": "TRUENO",
+    "precio": 450,
+    "imagen": "./recursos/pic-trueno.jpeg"
+  },
+  {
+    "id": 5,
+    "nombre": "ROSALIA",
+    "precio": 500,
+    "imagen": "./recursos/pic-rosalia.jpeg"
+  },
+  {
+    "id": 6,
+    "nombre": "MILEY CYRUS",
+    "precio": 4500,
+    "imagen": "./recursos/pic-mcyrus.jpeg"
+  },
+  {
+    "id": 7,
+    "nombre": "KRAFTWERK",
+    "precio": 500,
+    "imagen": "./recursos/pic-kraftwerk.jpeg"
+  },
+  {
+    "id": 8,
+    "nombre": "THE ROLLING STONES",
+    "precio": 550,
+    "imagen": "./recursos/pic-the-rolling-stones.jpeg"
+  }
+]

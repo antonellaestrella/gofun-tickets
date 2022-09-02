@@ -1,0 +1,230 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  background-color: rgb(207, 199, 199);
+  color: rgb(255, 255, 250);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fbfce7;
+}
+
+.nav-link {
+  color: rgb(255, 255, 250);
+  font-size: 1.4rem;
+  margin: 0px 10px;
+}
+.collapse {
+  justify-content: center;
+}
+
+.btn {
+  background-color: rgb(241, 153, 210);
+}
+
+.btn:hover {
+  background: #f3aff3;
+  color: rgb(255, 255, 250);
+}
+.portada__imagen {
+  margin: 10px;
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+  padding: 50px;
+  color: #3b0560;
+}
+
+/* .nav__bar {
+  text-align: end;
+  justify-content: end;
+} */
+
+.container-fluid {
+  background: #b9a3c8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portada__frente {
+  display: flex;
+  justify-content: center;
+}
+
+.card-text {
+  color: black;
+}
+
+.carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 30px 30px;
+  background: rgb(207, 199, 199);
+  border-radius: 5px;
+}
+.entradas_carrito {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+
+.entrada-detalle {
+  margin: 0px 10px;
+  color: rgb(151 96 224);
+  font-weight: bold;
+}
+.entrada-img {
+  width: 200px;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.pic p {
+  color: #3b0560;
+}
+.nosotros__brindamos {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.nuestras__ventajas {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.nosotros__parrafo {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.compra-finalizada {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.datos-cliente {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+.contact__secction-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  background: #3b0560;
+  padding: 20px;
+}
+.contact-button {
+  display: flex;
+  justify-content: center;
+  margin: 13px 0px;
+}
+.total-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-color: #b9a3c8;
+}
+footer i {
+  color: #fbfce7;
+  font-size: 2rem;
+  margin: 0px 10px;
+}
+.informacion-de-pie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.car__icon {
+  margin: 15px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+}
+#count__cart {
+  background-color: #3b0560;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+  font-size: 16px;
+  display: none;
+  min-width: 33px;
+  text-align: center;
+  margin: 0px 5px;
+}
+.cart-container {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  background: #bde1e5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+.cart-opened {
+  visibility: visible;
+  opacity: 1;
+}
+#cart {
+  background: white;
+  width: 100%;
+  height: 90vh;
+  border-radius: 5px;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+.cart {
+  padding: 20px;
+  background: #bde1e5;
+}
+.car-img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+#cartButtons {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.cart-container {
+  background: #3b0560;
+}
+.carrito-mje {
+  text-align: center;
+  color: #3b0560;
+}
+.card {
+  padding: 10px;
+}
